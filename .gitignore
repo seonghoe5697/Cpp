@@ -1,0 +1,29 @@
+## [ Visual Studio 관련 제외 항목 ]
+
+# 사용자 설정 및 임시 파일
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# 빌드 결과물 (가장 용량을 많이 차지함)
+Debug/
+Release/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+out/
+
+# 기타 컴파일러 생성 파일
+*.exe
+*.pdb
+*.ilk
+*.aps
+*.ncb
+*.opendb
+*.sdf
+*.cache
+*.log
+*.tlog
+*.lastbuildstate
